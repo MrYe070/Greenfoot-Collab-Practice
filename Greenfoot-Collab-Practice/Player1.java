@@ -14,6 +14,29 @@ public class Player1 extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        // A if (Greenfoot.isKeyDown("left"))  
+        {
+            deltaX = deltaX = -1;
+            setRotation(180);
+        }
+
+        if (Greenfoot.isKeyDown("right"))  
+        {
+            deltaX = deltaX  = + 1;
+            setRotation(0);
+        }
+
+        if (Greenfoot.isKeyDown("up"))  
+        {
+            deltaY = deltaY = -1;
+            setRotation(270);
+        }
+
+        if (Greenfoot.isKeyDown("down"))  
+        {
+            deltaY = deltaY = +1;
+            setRotation(90);
+        }
+
     }
 }
