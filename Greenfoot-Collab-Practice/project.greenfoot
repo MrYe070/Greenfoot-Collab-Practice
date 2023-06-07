@@ -1,9 +1,10 @@
 #Greenfoot project file
+class.Level1.image=bathroom-tile.jpg
 editor.fx.0.height=737
 editor.fx.0.width=814
 editor.fx.0.x=360
 editor.fx.0.y=28
-height=838
+height=1205
 package.numDependencies=0
 package.numTargets=1
 project.charset=UTF-8
@@ -28,7 +29,7 @@ target1.width=120
 target1.x=0
 target1.y=0
 version=3.0.0
-width=1550
+width=1009
 world.lastInstantiated=Level1
 xPosition=0
 yPosition=0
